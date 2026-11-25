@@ -13,7 +13,7 @@ async function fetchlistOfRecipes(){
     }
 }
 
-export default async function Recipes() {
+export default async function Recipe() {
 
     const recipeList = await fetchlistOfRecipes();
     return <RecipeList recipeList={recipeList}/>;
